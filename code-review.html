@@ -5,23 +5,23 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Pentesting (Penetration Testing) | Synack Tech</title>
+  <title>Secure Code Review | Synack Tech</title>
   
-  <meta content="Pentesting or Penetration Testing is a type of assessment in which testers analyse and evaluate the overall security of the IT infrastructure. Pentest should be performed on monthly basis." name="description">
+  <meta content="Secure Code Review is the part of the SDLC to identify the security weeknessess in the code before pushing the code into the production environment. Code review minimizes the security risks on the production environment." name="description">
 
-  <meta content="Pentesting, Pentest, Pen Test, Penetration Testing, Pentesters,Synack, Synack Tech" name="keywords">
+  <meta content="Secure Code Review, Code Review, Code Security, Code protection, Vulnerable Code, vulnerabilities in Code, Source Code Review, Synack, Synack Tech" name="keywords">
   <meta name="robots" content="index,follow">
 
-  <meta property="og:url" content="https://synack.tech/pentesting.html" />
-  <meta property="og:title" content="Pentesting (Penetration Testing) | Synack Tech" />
+  <meta property="og:url" content="https://synack.tech/code-review.html" />
+  <meta property="og:title" content="Secure Code Review | Synack Tech" />
   <meta property="og:type" content="website" />
-  <meta property="og:description" content="Pentesting or Penetration Testing is a type of assessment in which testers analyse and evaluate the overall security of the IT infrastructure. Pentest should be performed on monthly basis." />
-  <meta property="og:image" content="https://synack.tech/assets/img/pentest-thumb.png" />
+  <meta property="og:description" content="Secure Code Review is the part of the SDLC to identify the security weeknessess in the code before pushing the code into the production environment. Code review minimizes the security risks on the production environment." />
+  <meta property="og:image" content="https://synack.tech/assets/img/code-review-thumb.png" />
 
-  <meta name="twitter:title" content="Pentesting (Penetration Testing) | Synack Tech" />
-  <meta name="twitter:description" content="Pentesting or Penetration Testing is a type of assessment in which testers analyse and evaluate the overall security of the IT infrastructure. Pentest should be performed on monthly basis." />
-  <meta name="twitter:url" content="https://synack.tech/pentesting.html" />
-  <meta name="twitter:image" content="https://synack.tech/assets/img/pentest-thumb.png" />
+  <meta name="twitter:title" content="Secure Code Review | Synack Tech" />
+  <meta name="twitter:description" content="Secure Code Review is the part of the SDLC to identify the security weeknessess in the code before pushing the code into the production environment. Code review minimizes the security risks on the production environment." />
+  <meta name="twitter:url" content="https://synack.tech/code-review.html" />
+  <meta name="twitter:image" content="https://synack.tech/assets/img/code-review-thumb.png" />
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -86,9 +86,9 @@
 
         <ol>
           <li><a href="index.html">Home</a></li>
-          <li><a href="pentesting.html">pentesting</a></li>
+          <li><a href="code-review.html">Secure Code Review</a></li>
         </ol>
-        <h2>Pentesting</h2>
+        <h2>Secure Code Review</h2>
 
       </div>
     </section><!-- End Breadcrumbs -->
@@ -97,41 +97,81 @@
       <div class="container">
         
         <div class="page-thumb">
-          <img src="assets/img/pentest-thumb.png" alt="Pentesting" class="page-thumb-img">
+          <img src="assets/img/code-review-thumb.png" alt="Secure Code Review" class="page-thumb-img">
         </div>
         
-        <h3>What is Pentesting (Penetration Testing)?</h3>
-        <p class="text-justify">Pentesting or Penetration Testing is a type of assessment in which testers analyse and evaluate the overall security of the IT infrastructure. This infrastructure may include every thing but not limited to Web Apps, Mobile Apps and Thick Client Apps. The main aim of the pentest is to find the security flaws and vulnerabilities to remediate them before any attacker use them to damage your business or company.
+        <h3>What is Secure Code Review?</h3>
+        <p class="text-justify">Secure Code Review is the part of the SDLC to identify the security vulnerabilities in the code before pushing the code into the production environment. Code review helps eliminate the vulnerable code and dependencies from the source code. Secure Code review is the most important part of the software development life cycle. It helps reduce the security issues in the code during the development of the software. Secure code review is also known as SAST (Static Application Security Testing).
         </p>
 
         <p class="text-justify">
-          Generally the pentest is conducted using two ways, manual pentesting and automatic pentesting. In manual pentest the whole test is performed in a classical manual way, on the other hand automatic pentest is performed in a modern way by using latest tools and techniques. We follow both ways side by side to get the maximum output from the pentest.
+          If you follow the secure code review during the SDLC, then it is recommended to schedule a <a href="pentesting.html">pentesting</a> activity only once after pushing the code to the production environment. It will help make sure the production environment does not have any type of security misconfiguration. Secure code review can reduce upto 70% of the security issues from your code.
+        </p>
+
+        <p class="text-justify">
+          There are two ways to perform Secure Code Review activity, Using automated tools to scan code for vulnerabilities in the source code or by manually reviewing the Code for possible secuirty vulnerabilities. It is to be noted that no tool is 100% effective, thatswhy we perform the code review activity using automated tools and manually simutaneously to identify more issues.
         </p>
         <br>
         
         <div class="pentest-stages">
-            <h3>Pentest Stages</h3>
-            
+            <h3>Common Vulnerabilities Identified in Secure Code Review</h3>
+              <p class="text-justify">
+                During our Secure Code Review activities for our clients, we have identified some common issues which we found very often in the source code. Some of them are listed below.
+              </p>
             <div class="container" data-aos="fade-up">
             <div class="row gx-0">
 
               <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="20" style="padding-right: 1em;">
                 <div class="content">
-                  <h4>Planning and Preparation</h4>
-                  <p class="text-justify">Before the pentest begin, it is important for the tester to know about their target. The client and testers have to be aligned to make a proper understandings.</p>
-                  <h4>Discovery</h4>
-                  <p class="text-justify">In this stage testers actually start pentesting. They start enumerating services and other usefull information they needed.</p>
-                  <h4>Exploitation</h4>
-                  <p class="text-justify">This stage is also know as the actual pentesting stage. In this stage pentesters start finding the security loopholes and vulnerabilities to exploit them and pretend like an actual attacker to know the impact of the vulnerability.</p>
-                  <h4>Reporting</h4>
-                  <p class="text-justify">This stage is all about writing the report in an easy, but comprehensive way so the clients understand and easily plan to remediate these vulnerabilities.</p>
-                  <h4>Remediation</h4>
-                  <p class="text-justify">Now this stage is for the clients, they have the report and the knowledge about the security vulnerabilities and their impacts, they have to set the priority for fixing these vulnerabilities. Once these vulnerabilities are fixed, testers will perform retest to enusre the remediation applied are working properly.</p>
+                  <ul>
+                    <li>
+                      Broken Authentication
+                    </li>
+                    <li>
+                      Broken Access Control
+                    </li>
+                    <li>
+                      Unrestricted File Upload
+                    </li>
+                    <li>
+                      Directory Traversal
+                    </li>
+                    <li>
+                      Data Encryption
+                    </li>
+                    <li>
+                      Secure Database Communication
+                    </li>
+                    <li>
+                      Input Sanitization
+                    </li>
+                    <li>
+                      Output Sanitization
+                    </li>
+                    <li>
+                      Hardcoded Credentials
+                    </li>
+                    <li>
+                      Improper Error Handling
+                    </li>
+                    <li>
+                      SQL Injections
+                    </li>
+                    <li>
+                      Template Injections
+                    </li>
+                    <li>
+                      Language Specific Issues
+                    </li>
+                    <li>
+                      Missing CSRF Protections
+                    </li>
+                  </ul>
                 </div>
               </div>
 
               <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="20">
-                <img src="assets/img/pentest-stages.png" class="img-fluid" alt="Synack Tech | Cyber Security Services">
+                <img src="assets/img/common-vulns-secure-code-review.png" class="img-fluid" alt="Secure Code Review">
               </div>
 
             </div>
@@ -139,32 +179,23 @@
         </div>
 
         <br>
-        <h3>How Often you should Schedule Pentest </h3>
-        <p class="text-justify">
-          Pentest should be performed on monthly basis, because it will reveal the emerging threats and you will be able to eliminate it before any mishav. It is recommended to schedule Pentest if:
-        </p>
+        <h3>How Often you should Schedule Secure Code Review </h3>
         <ul>
           <li>
-          <h5>Changes in Infrastructure/Application</h5>
+          <h5>Before Pushing Code to Production</h5>
           </li>
           <li>
-          <h5>New Products acquired</h5>
+          <h5>Dependencies Updated</h5>
           </li>
           <li>
-          <h5>Security Patch Applied</h5>
-          </li>
-          <li>
-          <h5>Pushing code from Stage to Production</h5>
-          </li>
-          <li>
-          <h5>Opening new office</h5>
+          <h5>Updating Existing Features/Products</h5>
           </li>
         </ul>
 
         <br>
-        <h3>Looking to Schedule a Pentest</h3>
+        <h3>Looking to Schedule a Secure Code Review Activity</h3>
         <p class="text-justify">
-          If you want a pentest from some of the most skilled and professional pentesters, then feel free to contact us.<br><br> <a href="mailto:contact@synack.tech" class="getstarted">contact@synack.tech</a>
+          If you want to schedule a Code review activity with our skilled and talented professionals, then feel free to contact us.<br><br> <a href="mailto:contact@synack.tech" class="getstarted">contact@synack.tech</a>
         </p>
       </div>
 
