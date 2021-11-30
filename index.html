@@ -202,34 +202,40 @@
         <div class="row gy-4">
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-box blue">
-              <i class="bi-bug icon"></i>
-              <h3>Penetration Testing</h3>
-              <p>We offer comprehensive Penetration Testing services for Web, Mobile and Thick Client Applications. This includes all type of infrastructure used by applications.</p>
-            </div>
+            <a href="pentesting.html" style="text-decoration: none;color: #444444;">
+              <div class="service-box blue">
+                <i class="bi-bug icon"></i>
+                <h3>Penetration Testing</h3>
+                <p>We offer comprehensive Penetration Testing services for Web, Mobile and Thick Client Applications. This includes all type of infrastructure used by applications.</p>
+              </div>
+            </a>
           </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-box orange">
-              <i class="bi-bricks icon"></i>
-              <h3>Red Teaming</h3>
-              <p>We offer Red Teaming activities on demand for small to large size companies.</p>
-            </div>
+            <a href="red-teaming.html" style="text-decoration: none;color: #444444;">
+              <div class="service-box orange">
+                <i class="bi-bricks icon"></i>
+                <h3>Red Teaming</h3>
+                <p>We offer Red Teaming activities on demand for small to large size companies.</p>
+              </div>
+            </a>
           </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-box green">
-              <i class="bi-search icon"></i>
-              <h3>Secure Code Review</h3>
-              <p>We offer code review for any programming langauge, framework and product. We perform manual code review to minimize false positives and to maintain our quality work.</p>
-            </div>
+            <a href="code-review.html" style="text-decoration: none;color: #444444;">
+              <div class="service-box green">
+                <i class="bi-search icon"></i>
+                <h3>Secure Code Review</h3>
+                <p>We offer code review for any programming langauge, framework and product. We perform manual code review to minimize false positives and to maintain our quality work.</p>
+              </div>
+            </a>
           </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
             <div class="service-box red">
-              <i class="bi-card-checklist icon"></i>
-              <h3>SAST & DAST</h3>
-              <p>We offer both type of security testing. We recommend you get both to get the maximum results</p>
+              <i class="bi-cloud-arrow-up icon"></i>
+              <h3>Cloud Migration</h3>
+              <p>Planning migration to cloud? We offer cloud migration services for all cloud providers.</p>
             </div>
           </div>
 
@@ -238,6 +244,30 @@
               <i class="bi-cloud icon"></i>
               <h3>Cloud Security</h3>
               <p>We proudly offer cloud security that includes all types of cloud service providers</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-box green">
+              <i class="bi-cloud-check icon"></i>
+              <h3>Cloud Management</h3>
+              <p>Struggling managing cloud resources? We offer state of the art cloud management services</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-box orange">
+              <i class="bi-building icon"></i>
+              <h3>Business Solution Development</h3>
+              <p>Have a business idea? We will help developing a business solution for your idea</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-box red">
+              <i class="bi-window icon"></i>
+              <h3>Application Security</h3>
+              <p>We offer complete application security including the architecture review, infrastructure security, threat identifying and SAST/DAST</p>
             </div>
           </div>
 
@@ -300,13 +330,6 @@
             <div class="row gy-4">
               <div class="col-md-6">
                 <div class="info-box">
-                  <i class="bi bi-geo-alt"></i>
-                  <h3>Address</h3>
-                  <p>Karachi, Sindh 75010<br>Pakistan</p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="info-box">
                   <i class="bi bi-envelope"></i>
                   <h3>Email Us</h3>
                   <p><a href="mailto:contact@synack.tech">contact@synack.tech</a></p>
@@ -324,31 +347,31 @@
           </div>
 
           <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" class="php-email-form">
+            <form action="" method="post" id="contact-us">
               <div class="row gy-4">
 
                 <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                  <input type="text" name="name" class="form-control cname" placeholder="Your Name" required>
                 </div>
 
                 <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                  <input type="email" class="form-control cemail" name="email" placeholder="Your Email" required>
                 </div>
 
                 <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                  <input type="text" class="form-control csubject" name="subject" placeholder="Subject" required>
                 </div>
 
                 <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                  <textarea class="form-control cmessage" name="message" rows="6" placeholder="Message" required></textarea>
                 </div>
 
                 <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                  <div class="loading" style="display: none;">Loading</div>
+                  <div class="error-message" style="display: none;">Something went wrong, please email us at: contact@synack.tech</div>
+                  <div class="sent-message" style="display: none;">Your message has been sent!</div>
 
-                  <button type="submit">Send Message</button>
+                  <button type="button" class="getstarted" onclick="send_message()">Send Message</button>
                 </div>
 
               </div>
@@ -401,8 +424,10 @@
               <li><i class="bi bi-chevron-right"></i> <a href="pentesting.html">Penetration Testing</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="red-teaming.html">Red Teaming</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="code-review.html">Secure Code Review</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="SAST-DAST.html">SAST & DAST</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="cloud-migration.html">Cloud Migration</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="cloud-security.html">Cloud Security</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="cloud-management.html">Cloud Management</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="business-solutions.html">Business Solution Development</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="tranings.html">Tranings</a></li>
             </ul>
           </div>
@@ -410,9 +435,7 @@
           <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
             <h4>Contact Us</h4>
             <p>
-              Karachi<br>
-              Pakistan <br><br>
-              <strong>Email:</strong> <a href="mailto:info@synack.tech">info@synack.tech</a><br>
+              <strong>Email:</strong> <a href="mailto:info@synack.tech">contact@synack.tech</a><br>
             </p>
 
           </div>
@@ -447,6 +470,47 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+
+    function send_message(){
+      email=document.getElementsByClassName("cemail")[0].value;
+      name=document.getElementsByClassName("cname")[0].value;
+      subject=document.getElementsByClassName("csubject")[0].value;
+      message=document.getElementsByClassName("cmessage")[0].value;
+      if (email != '' && name != '' && subject != '' && message != '' ) {
+        document.getElementsByClassName('loading')[0].style = "display: block";
+        data = new FormData();
+        data.append( 'email',   email );
+        data.append( 'name',    name );
+        data.append( 'subject', subject );
+        data.append( 'message', message );
+        fetch("https://formspree.io/f/xrgjzypy", {
+          method: "POST",
+          body: data,
+          headers: {
+              'Accept': 'application/json'
+          }
+          }).then(response => {
+            document.getElementsByClassName('sent-message')[0].style = "display: block";
+            document.getElementsByClassName('loading')[0].style = "display: none";
+            reset();
+          }).catch(error => {
+            document.getElementsByClassName('loading')[0].style = "display: none";
+            document.getElementsByClassName('error-message')[0].style = "display: block";
+          });
+      }
+      else{
+        alert("Please fill out the required fields.");
+      }
+    }
+    function reset(){
+      document.getElementsByClassName("cemail")[0].value='';
+      document.getElementsByClassName("cname")[0].value='';
+      document.getElementsByClassName("csubject")[0].value='';
+      document.getElementsByClassName("cmessage")[0].value='';
+    }
+</script>
 
 </body>
 
